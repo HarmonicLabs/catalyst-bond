@@ -1,0 +1,22 @@
+{
+  "name": "teddyswap-yeild-contracts",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json && tsc-alias -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@harmoniclabs/cardanocli-pluts": "^0.1.4-dev1",
+    "@harmoniclabs/crypto": "^0.1.0",
+    "@harmoniclabs/plu-ts": "^0.4.1",
+    "@harmoniclabs/uint8array-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/blake2": "^4.0.1",
+    "@types/node": "^18.13.0",
+    "dotenv": "^16.0.3",
+    "tsc-alias": "^1.7.1",
+    "typescript": "^4.8.4"
+  }
+}
